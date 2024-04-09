@@ -1,0 +1,106 @@
+button {
+    background-color: #9c8cc3;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box {
+    border: black 1px solid;
+    padding: 5px;
+    margin-top: 25px;
+    overflow-wrap: break-word;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} 
+
+/* Footer container
+footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  /* Social icons */
+  .footer-social-icons li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .footer-social-icons a {
+    color: #000;
+  }
+  
+  /* Address and contact information */
+  .footer-info p {
+    margin-bottom: 10px;
+  }
+  
+  /* Copyright text */
+  .footer-copyright {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Center align text */
+  .text-center {
+    text-align: center;
+  }
+  
+  /* Add some spacing */
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .mb-5 {
+    margin-bottom: 3rem;
+  }
+  
+  .my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+
+
+  /*copy data encypted or decrypted*/
+
+  .messageDiv {
+    position: absolute;
+    margin-top: 600px;
+    left: 22vw;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .messageDiv {
+        bottom: 57%; /* Adjust bottom position for encrypted data */
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .messageDiv {
+        bottom: 41.5%; /* Adjust bottom position for decrypted data */
+    }
+}
+
+
+
+
+ .custom-swal-popup {
+        top: 10% !important;
+    }
